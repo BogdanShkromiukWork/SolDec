@@ -1,0 +1,23 @@
+{
+  "name": "soldec",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BogdanShkromiukWork/SolDec#readme",
+  "bugs": {
+    "url": "https://github.com/BogdanShkromiukWork/SolDec/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanShkromiukWork/SolDec.git"
+  },
+  "license": "ISC",
+  "author": "Bogdan Shkromiuk",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "testsd"
+  },
+  "devDependencies": {
+    "electron": "^40.2.1"
+  }
+}
