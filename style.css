@@ -1,0 +1,45 @@
+#textback {
+    background-color: lightgray;
+    height: 85vh;
+    width: 60vw;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    margin-bottom: 0;
+    padding: 0;
+    position: absolute;
+}
+#main {
+    margin: 0;
+    padding: 0;
+}
+#cnRpn {
+    height:15vh;
+    width: 20vw;
+    top: 0;
+    right: 0;
+    padding: 0;
+    position: absolute;
+}
+#cnLpn {
+    height:15vh;
+    width: 20vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#Rpn {
+    height: 85vh;
+    width: 20vw;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    position: absolute;
+}
+#Lpn {
+    height: 85vh;
+    width: 20vw;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    position: absolute;
+}
