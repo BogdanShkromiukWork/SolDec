@@ -1,0 +1,12 @@
+#functionspnFNCbasic {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: none;
+}
+#functionscnpn {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
