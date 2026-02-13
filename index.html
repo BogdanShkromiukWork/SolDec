@@ -6,11 +6,16 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://unpkg.com/mathlive/dist/mathlive.core.css">
+        <link rel="stylesheet" href="https://unpkg.com/mathlive/dist/mathlive.css">
     </Head>
     <body id="main">
         <div id="contentback">
             <div class="contentbase">
-                <div id="textcontent" contenteditable="true">hrjsksljhkahj</div>
+                <div class="textcontent" contenteditable="true"></div>
+            </div>
+            <div class="contentbase">
+                <div class="textcontent" contenteditable="true"></div>
             </div>
         </div>
 
@@ -29,7 +34,7 @@
                 </div>
             </div>
 
-            <div id="functionscnpn">
+            <div id="functionscnpnbase">
                 <div class="cnRLpnGrid">
                     <button class="btn" id="homebtn">
                          <div class="btn-content bi bi-house-door-fill"></div>
@@ -44,16 +49,35 @@
         </div>
 
         <div id="Rpn">
-            <div id="functionspnFNCbasic">
-                
+            <div id="functionspnFNCbase">
+                <div id = "SuperSubScriptGrid">
+                    <div id="SuperSubScriptName">SuperSubScript</div>
+                    <button class="btn" id="Supersciprbtn">
+                        <div class="btn-content" id="Supersciprbtn-div"></div>
+                    </button>
+                    <button class="btn" id="Sunscript">
+                        <div class="btn-content" id="Sunscript-div"></div>
+                    </button> 
+                    <button class="btn">
+                        <div class="btn-content"></div>
+                    </button> 
+                    <button class="btn">
+                        <div class="btn-content"></div>
+                    </button> 
+                </div>
             </div>
         </div>
-
         <div id="Lpn">
         </div>
-
+        <script src="https://unpkg.com/mathlive/dist/mathlive.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
         <script src="functionpn.js"></script>
         <script type="module" src="buttonrender.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
     </body>
 </html>
+
+<!-- 
+                    <button class="btn">
+                        <div class="btn-content"></div>
+                    </button> 
+-->

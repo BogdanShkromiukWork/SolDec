@@ -9,8 +9,8 @@ buttonsRLpn.forEach((btnpn) => {
     }
 })
     function renderBtnsearch(id) {
-        const idlist = []
-        const torenderlist = []
+        const idlist = ["Supersciprbtn", "Sunscript"]
+        const torenderlist = ['x^n', 'x_n']
         const torenderid = idlist.indexOf(id);
         return torenderlist[torenderid];
     }
